@@ -112,7 +112,7 @@ python manage.py makemigrations
 **Adicionar um novo módulo**
 
 ```bash
-django-admin startapp
+django-admin startapp <nome_do_modulo>
 ```
 
 
