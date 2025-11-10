@@ -109,6 +109,12 @@ django-admin startproject <nome_do_projeto>
 python manage.py makemigrations
 ```
 
+**Adicionar um novo módulo**
+
+```bash
+django-admin startapp
+```
+
 
 
 <br/>
