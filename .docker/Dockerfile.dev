@@ -25,7 +25,7 @@ RUN pip install --no-cache-dir pipenv
 # Copia o código do projeto
 COPY ../ .
 
-RUN pipenv install django
+RUN pipenv install && pipenv install django
 
 # Mantém o container em pé
 CMD ["tail", "-f", "/dev/null"]

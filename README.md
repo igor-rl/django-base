@@ -2,12 +2,12 @@
 
 # 🛒 DJANGO BASE
 
-O aplicativo **DJANGO BASE** é projeto base desenvolvido por [Igor
+O aplicativo **DJANGO BASE** é o projeto base desenvolvido por [Igor
 Lage](https://igorlage.vercel.app/home).\
 
 Ele foi projetado para permitir iniciar o desenvolvimento rápido e prático
 de um app Django priorizando **escalabilidade**, **isolamento de ambiente**
-e **automação de setup** via containers. Além disso esse projeto já conta com
+e **automação de setup** via containers. Além disso, esse projeto já conta com
 configurações de comunicação gRPC, http e mensageria via RabbitMQ com assinatura
 JWT - tudo isso acoplado de forma modular.
 
@@ -69,6 +69,11 @@ comando abaixo:
 pipenv shell
 ```
 
+**Instalar as dependencias do projeto:**
+```bash
+pipenv install
+```
+
 **Processar as migrações:**
 ``` bash
 python manage.py migrate
@@ -96,6 +101,12 @@ A aplicação estará acessível através do endereço:\
 
 ``` bash
 django-admin startproject <nome_do_projeto>
+```
+
+**Criar as migrações:**
+
+``` bash
+python manage.py makemigrations
 ```
 
 
