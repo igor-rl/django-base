@@ -103,16 +103,21 @@ A aplicação estará acessível através do endereço:\
 django-admin startproject <nome_do_projeto>
 ```
 
+**Adicionar um novo módulo**
+
+```bash
+django-admin startapp <nome_do_modulo>
+```
+
 **Criar as migrações:**
 
 ``` bash
 python manage.py makemigrations
 ```
 
-**Adicionar um novo módulo**
-
-```bash
-django-admin startapp <nome_do_modulo>
+**Processar as migrações:**
+``` bash
+python manage.py migrate
 ```
 
 
