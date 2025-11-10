@@ -1,7 +1,7 @@
 services:
-  ecommerce-dashboard:
+  django-base:
 
-    container_name: ecommerce-dashboard
+    container_name: django-base
 
     build:
       context: .

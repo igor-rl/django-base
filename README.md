@@ -1,14 +1,15 @@
 ![header-igor-projetos](https://github.com/igor-rl/assets/blob/main/img/github-projetcs-header.jpg)
 
-# 🛒 E-COMMERCE DASHBOARD
+# 🛒 DJANGO BASE
 
-O aplicativo **E-Commerce Dashboard** é o painel administrativo do
-projeto de e-commerce desenvolvido por [Igor
+O aplicativo **DJANGO BASE** é projeto base desenvolvido por [Igor
 Lage](https://igorlage.vercel.app/home).\
-Ele foi projetado para permitir que o proprietário do negócio gerencie
-de forma eficiente sua plataforma de vendas online contratada junto ao
-franqueador, priorizando **escalabilidade**, **isolamento de ambiente**
-e **automação de setup** via containers.
+
+Ele foi projetado para permitir iniciar o desenvolvimento rápido e prático
+de um app Django priorizando **escalabilidade**, **isolamento de ambiente**
+e **automação de setup** via containers. Além disso esse projeto já conta com
+configurações de comunicação gRPC, http e mensageria via RabbitMQ com assinatura
+JWT - tudo isso acoplado de forma modular.
 
 ## ⬇️ Comece a partir do projeto base
 

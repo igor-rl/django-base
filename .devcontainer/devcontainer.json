@@ -1,10 +1,10 @@
 {
-	"name": "Dashboard",
+	"name": "Django Base",
 	"dockerComposeFile": [
 		"../.docker/docker-compose.dev.yml"
 	],
-	"service": "ecommerce-dashboard",
-	"workspaceFolder": "/home/node/dashboard",
+	"service": "django-base",
+	"workspaceFolder": "/home/user/app",
 	"features": {
     "ghcr.io/devcontainers/features/common-utils:2": {},
     "ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {
